@@ -1,15 +1,23 @@
-.head{
-    position: relative;
-    height: 50px;
-    width: 50px;
+
+*{
+    margin: 0;
+}
+body{
+    display: block;
+}
+.snakeBody{
+    position: fixed;
+    height: 46px;
+    width: 46px;
     background-color: cornflowerblue;
+    margin: 0;
     border: 2px solid black;
 }
 
 .food{
-    position: relative;
-    height: 50px;
-    width: 50px;
+    position: fixed;
+    height: 46px;
+    width: 46px;
     background-color: red;
     border: 2px solid black;
 }
